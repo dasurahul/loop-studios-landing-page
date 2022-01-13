@@ -16,13 +16,38 @@
 
 body {
   margin: 0;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: url("./images/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .navbar {
   width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 3rem 0;
 }
 
 .nav {
@@ -36,4 +61,21 @@ body {
 
 .nav a {
   text-decoration: none;
+  color: var(--white-color);
+  font-family: "Alata", sans-serif;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: min-content;
+  padding: 1.5rem;
+  border: 0.1rem solid var(--white-color);
+}
+
+.hero-text h1 {
+  color: var(--white-color);
+  letter-spacing: 0.05rem;
+  font-weight: normal;
 }

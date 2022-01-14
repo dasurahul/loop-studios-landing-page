@@ -159,3 +159,28 @@ h2 {
 .grid img {
   flex: 1;
 }
+
+.footer {
+  background-color: var(--black-color);
+}
+
+.content {
+  width: 80%;
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.copyright {
+  font-family: "Alata", sans-serif;
+  color: var(--dark-gray-color);
+}

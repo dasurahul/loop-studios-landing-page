@@ -67,6 +67,23 @@ h2 {
   text-decoration: none;
   color: var(--white-color);
   font-family: "Alata", sans-serif;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  height: 0.2rem;
+  width: 1.5rem;
+  background-color: var(--white-color);
+  transition: 250ms;
+}
+
+.nav a:hover::after {
+  transform: translateX(-50%) scale(1);
 }
 
 .hero-text {

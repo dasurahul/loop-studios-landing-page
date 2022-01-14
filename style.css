@@ -159,10 +159,13 @@ h2 {
   padding: 0.5rem 2rem;
   border: 2px solid var(--black-color);
   letter-spacing: 0.1rem;
+  transition: 250ms;
 }
 
 .creations button:hover {
   cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--black-color);
 }
 
 .grid {

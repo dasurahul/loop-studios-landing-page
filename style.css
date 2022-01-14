@@ -34,8 +34,12 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 .header {
-  min-height: 100vh;
+  min-height: 80vh;
   background-image: url("./images/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,10 +48,10 @@ h1 {
 
 .navbar {
   width: 80%;
-  margin: 0 auto;
+  margin-inline: auto;
   display: flex;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding-block: 3rem;
 }
 
 .nav {
@@ -69,13 +73,74 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: min-content;
+  width: 40%;
   padding: 1.5rem;
   border: 0.1rem solid var(--white-color);
 }
 
 .hero-text h1 {
   color: var(--white-color);
-  letter-spacing: 0.05rem;
   font-weight: normal;
+  letter-spacing: 0.05rem;
+}
+
+.leader {
+  width: 80%;
+  margin-inline: auto;
+  padding-block: 9rem;
+}
+
+.leader-image {
+  position: relative;
+}
+
+.leader-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  padding: 6rem;
+  background-color: var(--white-color);
+}
+
+.leader-heading {
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.leader-paragraph {
+  font-family: "Alata", sans-serif;
+  color: var(--very-dark-gray-color);
+  line-height: 1.5;
+}
+
+.creations {
+  width: 80%;
+  margin-inline: auto;
+  padding-block: 9rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+}
+
+.creations h2 {
+  font-weight: normal;
+}
+
+.creations button {
+  font-family: "Alata", sans-serif;
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  border: 2px solid var(--black-color);
+  letter-spacing: 0.1rem;
+  cursor: pointer;
 }

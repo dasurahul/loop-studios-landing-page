@@ -142,5 +142,20 @@ h2 {
   padding: 0.5rem 2rem;
   border: 2px solid var(--black-color);
   letter-spacing: 0.1rem;
+}
+
+.creations button:hover {
   cursor: pointer;
+}
+
+.grid {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.grid img {
+  flex: 1;
 }

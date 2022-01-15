@@ -38,6 +38,14 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
+img {
+  display: block;
+}
+
 .header {
   min-height: 80vh;
   background-image: url("./images/image-hero.jpg");
@@ -176,8 +184,44 @@ h2 {
   gap: 2rem;
 }
 
-.grid img {
+.image-container {
   flex: 1;
+  position: relative;
+}
+
+.image-container:hover {
+  cursor: pointer;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.image-container:hover::before {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
+}
+
+.image-container:hover .image-text {
+  color: var(--black-color);
+}
+
+.image-container img {
+  min-width: 100%;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  color: var(--white-color);
+  text-transform: uppercase;
 }
 
 .footer {

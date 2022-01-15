@@ -100,6 +100,9 @@ img {
 }
 
 @media (max-width: 900px) {
+  .header {
+    background-image: url("./images/image-hero-mobile.jpg");
+  }
   .nav {
     display: none;
   }

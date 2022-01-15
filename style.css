@@ -99,18 +99,6 @@ img {
   display: none;
 }
 
-@media (max-width: 900px) {
-  .header {
-    background-image: url("./images/image-hero-mobile.jpg");
-  }
-  .nav {
-    display: none;
-  }
-  .menu {
-    display: block;
-  }
-}
-
 .hero-text {
   position: absolute;
   top: 50%;
@@ -288,4 +276,34 @@ img {
 .copyright {
   font-family: "Alata", sans-serif;
   color: var(--dark-gray-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .header {
+    background-image: url("./images/image-hero-mobile.jpg");
+  }
+  .navbar {
+    width: 100%;
+    padding-inline: 2rem;
+  }
+  .nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .hero-text {
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+  }
 }

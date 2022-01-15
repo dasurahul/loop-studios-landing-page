@@ -306,4 +306,19 @@ img {
     right: 2rem;
     width: auto;
   }
+  .leader {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
+  .leader img {
+    width: 100%;
+  }
+  .leader-text {
+    position: static;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+  }
 }

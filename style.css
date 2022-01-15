@@ -251,7 +251,7 @@ img {
 .icon-container::after {
   content: "";
   position: absolute;
-  top: 100%;
+  top: calc(100% + 0.5rem);
   left: 50%;
   transform: translateX(-50%) scale(0);
   width: 1rem;

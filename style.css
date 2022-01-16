@@ -99,6 +99,10 @@ img {
   display: none;
 }
 
+.menu-content {
+  display: none;
+}
+
 .hero-text {
   position: absolute;
   top: 50%;
@@ -308,6 +312,32 @@ img {
   }
   .menu {
     display: block;
+  }
+  .menu-content {
+    display: none;
+    position: absolute;
+    inset: 0;
+    padding: 3rem 2rem;
+    height: 100vh;
+    background-color: var(--black-color);
+    z-index: 1;
+  }
+  .block {
+    display: block;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-block: 4rem;
+  }
+  .links a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
   }
   .hero-text {
     left: 2rem;

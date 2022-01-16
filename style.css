@@ -246,6 +246,8 @@ img {
 }
 
 .icons {
+  flex: 1;
+  margin-left: auto;
   display: flex;
   align-items: center;
   gap: 1rem;

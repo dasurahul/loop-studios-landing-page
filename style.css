@@ -239,6 +239,12 @@ img {
   padding-block: 3rem;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .icons {
   display: flex;
   align-items: center;
@@ -320,5 +326,28 @@ img {
     width: 100%;
     padding: 2rem;
     text-align: center;
+  }
+  .content {
+    display: block;
+  }
+  .footer .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .nav {
+    display: block;
+    text-align: center;
+  }
+  .footer .nav > li {
+    margin-bottom: 1rem;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
   }
 }

@@ -290,6 +290,11 @@ img {
   color: var(--dark-gray-color);
 }
 
+.full-height {
+  height: 100vh;
+  overflow: hidden;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 2.25rem;

@@ -319,18 +319,16 @@ img {
     display: block;
   }
   .menu-content {
-    display: block;
+    display: none;
     position: absolute;
     inset: 0;
     padding: 3rem 2rem;
     height: 100vh;
     background-color: var(--black-color);
-    transform: translateX(100%);
     z-index: 1;
-    transition: 250ms;
   }
   .block {
-    transform: translateX(0);
+    display: block;
   }
   .links {
     display: flex;
